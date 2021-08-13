@@ -15,7 +15,7 @@ export default function App() {
   );
 
   useEffect(() => {
-    localStorage.setItem('item', JSON.stringify(items));
+    localStorage.setItem('items', JSON.stringify(items));
   }, [items]);
 
   const newItem = () => {

@@ -65,7 +65,7 @@ export default function App() {
         <input
           value={item}
           type="text"
-          placeholder="Enter someting..."
+          placeholder="Enter something..."
           onChange={e => setItem(e.target.value)}
           onKeyPress={e => keyPress(e)}
         />
